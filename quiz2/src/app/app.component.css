@@ -1,12 +1,15 @@
 a{
     text-decoration: none;
-    color: goldenrod;
+    color: #f0b566;
     font-weight: bolder;
     font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 }
 a:hover{
     text-decoration: none;
-    color: whitesmoke;
+    color: #5c9fc4;
     font-weight: bolder;
 }
 img{
