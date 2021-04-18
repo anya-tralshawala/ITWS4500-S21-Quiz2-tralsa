@@ -57,7 +57,7 @@ export class SolarComponent implements OnInit {
   ];
   private svg: any;
   private margin = 50;
-  private width = 1200 - (this.margin * 2);
+  private width = 1000 - (this.margin * 2);
   private height = 1800 - (this.margin * 2);
 
   constructor() { }

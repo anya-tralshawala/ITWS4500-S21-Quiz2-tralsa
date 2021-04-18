@@ -39,6 +39,9 @@ iframe{
     background-color: #091941;
     color: whitesmoke;
 }
+.bg-slate:hover{
+    color: #5c9fc4;
+}
 .bg-slate{
     background-color: #294969;
     color: whitesmoke;
@@ -50,6 +53,9 @@ iframe{
 .bg-golden{
     background-color: #f0b566;
 }
+.bg-lightgolden{
+    background-color: #f8b55d77;
+}
 .bg-lightblue{
     background-color: #5c9fc4;
 }
@@ -60,4 +66,9 @@ iframe{
 .bg-burnt{
     background-color: #79585f;
     color: whitesmoke;
+}
+.border{
+    margin: 5%;
+    padding: 5%;
+    justify-content: center;
 }

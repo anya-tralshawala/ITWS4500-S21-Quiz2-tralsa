@@ -12,6 +12,9 @@
 * https://getbootstrap.com/docs/4.0/components/modal/
 * https://getbootstrap.com/docs/4.1/components/card/
 * https://getbootstrap.com/docs/4.0/components/buttons/
+* https://howtocreateapps.com/angular-tutorial-json/
+* https://getbootstrap.com/docs/4.0/components/carousel/
+* https://storyset.com/search
 
 ## Data Sources - NASA
 #### Lunar Eclipse Data

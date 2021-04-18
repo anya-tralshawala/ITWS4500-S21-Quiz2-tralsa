@@ -36,12 +36,25 @@
           <a href="/view-recommendation">View Recommendation</a>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <input class="btn btn-success" type="submit" value="Submit">
+          <button type="button" class="btn bg-gray" data-dismiss="modal">Close</button>
+          <input class="btn bg-blue" type="submit" value="Submit">
         </div>
       </form>
 
     </div>
   </div>
 </div>
+
+<!-- <div style="text-align:center">
+  <h1>
+    Welcome to our Image Gallery!
+  </h1>
+  <button (click)="getData()">Fetch Data</button>
+ </div>
+ <div class="gallery" *ngFor="let image of data">
+  <a target="_blank" [href]="image.href">
+  <img [src]="image.thumbnailUrl" width="300" height="200">
+  </a>
+  <div class="desc">{{image.name}}</div>
+ </div> -->
 <router-outlet></router-outlet>
