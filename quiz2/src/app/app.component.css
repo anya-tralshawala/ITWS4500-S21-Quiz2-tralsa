@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 30px;
+}
+a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+img{
+    margin: 2px;
+    margin-right: 5px;
+}

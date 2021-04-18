@@ -1,0 +1,47 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a href=""><img alt="quiz 2 logo" src="../../assets/quiz2_logo.png" height="85"> Eclipse Data for my Lifetime...</a>
+  <!-- <input type="search" aria-label="Search for keywords searchbar" style="width: auto;"
+      placeholder="Search for keywords" class="form-control"> -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Viz
+    Recommendations</button>
+</nav>
+<!-- <app-home></app-home> -->
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> Viz Recommendations:
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form method="POST" action="/recommendation">
+
+        <div class="modal-body">
+
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Enter name" required>
+          <br>
+          <label for="emailAddress">Email address:</label>
+          <input type="email" class="form-control" id="emailAddress" name="email" placeholder="Enter email" required>
+          <br>
+          <label for="recommendation">Recommendation:</label>
+          <textarea class="form-control" rows="5" id="recommendations" name="recommendation"
+            placeholder="Please enter your data viz recommendation here."></textarea>
+          <br>
+          <a href="/view-recommendation">View Recommendation</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <input class="btn btn-success" type="submit" value="Submit">
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
