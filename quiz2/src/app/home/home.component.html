@@ -9,9 +9,9 @@
                 <p class="card-text">Solar Eclipse Information...</p>
                 <div class="centerButton">
                     <form method="get" action="/solar-viz">
-                        <input type="submit" class="btn btn-dark margin" value="Solar Eclipse Data 2001 - 2030"
+                        <input type="submit" class="btn bg-slate margin" value="Solar Eclipse Data 2001 - 2030"
                             aria-label="button for solar eclipse" aria-details="det">
-                        <a type="button" class="btn btn-dark margin" routerLink='/solar'>Viz</a>
+                        <a type="button" class="btn bg-slate margin" routerLink='/solar'>Solar Visualization</a>
 
                     </form>
                 </div>
@@ -38,9 +38,9 @@
                 <p class="card-text">Lunar Eclipse Information...</p>
                 <div class="centerButton">
                     <form method="get" action="/lunar-viz">
-                        <input type="submit" class="btn btn-dark margin" value="Lunar Eclipse Data 2001 - 2030"
+                        <input type="submit" class="btn bg-slate margin" value="Lunar Eclipse Data 2001 - 2030"
                             aria-label="button for solar eclipse" aria-details="det">
-                        <a type="button" class="btn btn-dark margin" routerLink='/lunar'>Viz</a>
+                        <a type="button" class="btn bg-slate margin" routerLink='/lunar'>Lunar Visualization</a>
 
                     </form>
                 </div>
@@ -60,12 +60,18 @@
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
             </div>
         </div>
-        <div class="card bg-secondary">
+        <div class="card bg-gray">
             <!-- <img class="card-img" src="../assets/Counting stars-amico (1).svg" height="315" alt="Card image"> -->
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/2VaTYQvB6so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/2VaTYQvB6so"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="card-body">
+                <p class="card-text">August 2017 Total Solar Eclipse...</p>
+            </div>
         </div>
         <div class="card bg-slate p-3 text-right">
             <blockquote class="blockquote mb-0">
@@ -82,7 +88,6 @@
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is another card with title and supporting text below. This card has some
                     additional content to make it slightly taller overall.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </div>
     </div>

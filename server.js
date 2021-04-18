@@ -52,6 +52,9 @@ function dbjson2csv(file, query, collection) {
         }
     );
 }
+// commented out db query to create viz data
+// dbjson2csv("lunarVizData.csv", {}, "lunarVizData");
+// dbjson2csv("solarVizData.csv", {}, "solarVizData");
 
 app.get('/solar-viz', function (req, res) {
     dbjson2csv("solar.csv", {}, "solar");
