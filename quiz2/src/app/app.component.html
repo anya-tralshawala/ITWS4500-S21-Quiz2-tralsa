@@ -2,8 +2,7 @@
   <a href=""><img alt="quiz 2 logo" src="../../assets/quiz2_logo.png" height="85"> Eclipse Data for my Lifetime...</a>
   <!-- <input type="search" aria-label="Search for keywords searchbar" style="width: auto;"
       placeholder="Search for keywords" class="form-control"> -->
-  <button type="button" class="btn bg-golden btn-lg" data-toggle="modal" data-target="#exampleModal">Viz
-    Recommendations</button>
+  <button type="button" class="btn bg-golden btn-lg" data-toggle="modal" data-target="#exampleModal">Suggestions</button>
 </nav>
 <!-- <app-home></app-home> -->
 
@@ -13,7 +12,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"> Viz Recommendations:
+        <h5 class="modal-title" id="exampleModalLabel"> Suggestions:
         </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
@@ -22,18 +21,18 @@
       <form method="POST" action="/recommendation">
 
         <div class="modal-body">
-
+          <p> Please feel free to suggest the best place to watch the upcoming eclipse, best places to stay, and any other fun activities at these location. Thanks! </p>
           <label for="name">Name:</label>
           <input type="text" class="form-control" id="name" name="name" placeholder="Enter name" required>
           <br>
           <label for="emailAddress">Email address:</label>
           <input type="email" class="form-control" id="emailAddress" name="email" placeholder="Enter email" required>
           <br>
-          <label for="recommendation">Recommendation:</label>
+          <label for="recommendation">Suggestions:</label>
           <textarea class="form-control" rows="5" id="recommendations" name="recommendation"
-            placeholder="Please enter your data viz recommendation here."></textarea>
+            placeholder="Please enter your suggestions here." required></textarea>
           <br>
-          <a href="/view-recommendation">View Recommendation</a>
+          <!-- <a href="/view-recommendation">View Recommendation</a> -->
         </div>
         <div class="modal-footer">
           <button type="button" class="btn bg-gray" data-dismiss="modal">Close</button>

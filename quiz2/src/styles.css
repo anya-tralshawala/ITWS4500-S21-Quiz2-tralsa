@@ -36,8 +36,11 @@ iframe{
     /* text-align: center; */
 }
 .bg-blue{
-    background-color: #091941;
+    background-color: #091941e8;
     color: whitesmoke;
+}
+.bg-blue:hover{
+    color: #5c9fc4;
 }
 .bg-slate:hover{
     color: #5c9fc4;
