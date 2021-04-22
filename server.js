@@ -95,8 +95,8 @@ app.get('/view-recommendation', function (req, res) {
             if (err) throw err;
             console.log(recommendation);
             db.close();
-            // res.status(200).json(recommendation);
-            res.redirect("http://localhost:3000/")
+            res.status(200).json(recommendation);
+            // res.redirect("http://localhost:3000/")
         })
     })
 });

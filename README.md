@@ -15,6 +15,7 @@
 * https://howtocreateapps.com/angular-tutorial-json/
 * https://getbootstrap.com/docs/4.0/components/carousel/
 * https://storyset.com/search
+* https://css-tricks.com/snippets/css/typewriter-effect/
 
 ## Data Sources - NASA
 #### Lunar Eclipse Data
@@ -26,3 +27,6 @@
 * https://eclipse.gsfc.nasa.gov/SEdecade/SEdecade2001.html
 * https://eclipse.gsfc.nasa.gov/SEdecade/SEdecade2011.html
 * https://eclipse.gsfc.nasa.gov/SEdecade/SEdecade2021.html
+
+## Why I created this App and it's features/purpose
+For the purposes of this app you will be able to click on View recommendations inside of the Recommendations modal. 
