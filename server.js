@@ -69,7 +69,12 @@ app.get('/lunar-viz', function (req, res) {
     const file = 'quiz2/src/assets/csv-files/lunar.csv';
     res.download(file);
 });
-
+app.get('/combined-data', function (req, res) {
+    dbjson2csv("combined.csv", {}, "combinedEclipseData");
+    console.log("combined eclipse data file has been created and is downloading!");
+    const file = 'quiz2/src/assets/csv-files/combined.csv';
+    res.download(file);
+});
 app.post('/recommendation', function (req, res) {
     MongoClient.connect(url, function (err, db) {
         if (err) throw err;
@@ -77,7 +82,6 @@ app.post('/recommendation', function (req, res) {
 
         dbo.collection("recommendation").insertOne(req.body, function (err) {
             if (err) throw err;
-            //console.log(result[0].customDefinitions);
             console.log("data recieved");
             db.close();
         });
