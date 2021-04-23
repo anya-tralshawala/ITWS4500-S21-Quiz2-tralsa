@@ -14,7 +14,8 @@ MongoDB Compass Connection String: mongodb+srv://dbUserAnya:Zrv3X27vB2XtHHIA@clu
 * https://getbootstrap.com/docs/4.0/components/carousel/
 * https://storyset.com/search
 * https://css-tricks.com/snippets/css/typewriter-effect/
- 
+* https://www.convertcsv.com/csv-to-html.htm (CSV file to HTML converter; used to convert the combined eclipse data CSV file to the table in combined.component.html)
+
 ## Data Sources - NASA:
 #### Lunar Eclipse Data
 * https://eclipse.gsfc.nasa.gov/LEdecade/LEdecade2001.html
