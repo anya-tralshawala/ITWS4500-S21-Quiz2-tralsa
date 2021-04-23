@@ -6,6 +6,9 @@ Call the json to csv function and will make a get request to the database and do
 ### /lunar-viz
 Call the json to csv function and will make a get request to the database and download the csv file containing data for lunar eclipse data from 2001 - 2030.
 
+### /combined-data
+Call the json to csv function and will make a get request to the database and download the csv file containing data for combined eclipse data from 2001 - 2030.
+
 ### /recommendation
 Makes a post request to the database with all the data that is submitted in the recommendation form.
 
